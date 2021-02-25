@@ -16,5 +16,6 @@
 
 ### SEC RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/e53g/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/e53g/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so
+    vendor/samsung/e53g/proprietary/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so \
+    vendor/samsung/e53g/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
+    vendor/samsung/e53g/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so
